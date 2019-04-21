@@ -9,6 +9,7 @@
 * This seems the same in Taiwan. Many students do not buy textbook because it is too expensive and they do not have place to sell the textbook other than to other students. 
 * Therefore, having a website or an app will provide a platform for students to aquire textbooks from their fellow students . This platform will also provide students to either sell or rent the textbooks after they are done with their course in the price they would like.
 * From the business side, the platform can either charge some service fee like Uber or just gained benefit by distributing advertisement such as school and companies advertisement.
+* We are also able to use the data collected to do data analysis to gain more insights. 
 
 ## Goal
 --------------------------------------
@@ -38,5 +39,10 @@
 The following ERD is created by MYSQLWorkbench
 ![image](https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade_ERD.png)
 
-## Implementa
-The code for creating the database and tables are in the following link: 
+## Implementation
+---------------------------------------
+The code for creating the database, tables, and queries are in the following link: https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade.sql
+
+### Create
+
+## 
