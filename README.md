@@ -126,3 +126,8 @@ group by t.ISBN  having count(t.title)>1;
 ```
 ![image](https://github.com/billliao628/textbook-trade/blob/master/Fourth_Report.png)
 
+## Conclusion
+* This is only a simple version of the database of a platform for student to sell, buy, rent textbooks.
+* Database will be more complex if want to make it a product.
+* We will also need to decide whether we should develop website or an app first for the users.
+* This idea and product if further developed will target mainly on Taiwan and the United States market first.
