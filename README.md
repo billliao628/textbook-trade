@@ -91,7 +91,7 @@ https://github.com/billliao628/textbook-trade/blob/master/Values_Textbook.png
 select  * from TEXTBOOK
 where In_Stock=(select Max(In_Stock) from TEXTBOOK);
 ```
-![image](https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade_ERD.png)
+![image](https://github.com/billliao628/textbook-trade/blob/master/First_Report.png)
 
 
 2. This report shows how many students from each school use the platform.
@@ -100,6 +100,8 @@ select count(account_id), school
 from account
 group by school order by count(account_id) desc;
 ```
+![image](https://github.com/billliao628/textbook-trade/blob/master/Second_Report.png)
+
 
 3. This report shows us what books cost higher (>100 dollars) in either sell_post and rental_post.
 ```MySQL
@@ -110,6 +112,8 @@ LEFT JOIN rental_post ON rental_post.ISBN=textbook.ISBN
 where sell_post.sell_price>100
 or rental_post.rental_price>100;
 ```
+![image](https://github.com/billliao628/textbook-trade/blob/master/Third_Report.png)
+
 4. This report shows if the same textbook is required by different courses
 ```MySQL
 SELECT t.ISBN, title, count(t.title) as book_course_requried
@@ -119,3 +123,6 @@ or t.ISBN=ct.ISBN_2
 or t.ISBN=ct.ISBN_3
 group by t.ISBN  having count(t.title)>1;
 ```
+![image](https://github.com/billliao628/textbook-trade/blob/master/Fourth_Report.png)
+
+#END
