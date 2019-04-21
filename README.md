@@ -76,12 +76,11 @@ https://github.com/billliao628/textbook-trade/blob/master/Values_Post.png
 * Search Values:
 https://github.com/billliao628/textbook-trade/blob/master/Values_Search.png
 * Course_Textbook Values:
-https://github.com/billliao628/textbook-trade/blob/master/Table_Course_Textbook.png
+https://github.com/billliao628/textbook-trade/blob/master/Values_Course_Textbook.png
 * Sell_Post Table Values:
-https://github.com/billliao628/textbook-trade/blob/master/Table_Sell_Post.png
+https://github.com/billliao628/textbook-trade/blob/master/Values_Sell_Post.png
 * Rental_Post Values:
-https://github.com/billliao628/textbook-trade/blob/master/Table_Rental_Post.png
+https://github.com/billliao628/textbook-trade/blob/master/Values_Rental_Post.png
 * Textbook Values:
-https://github.com/billliao628/textbook-trade/blob/master/Textbook_Table.png
-
+https://github.com/billliao628/textbook-trade/blob/master/Values_Textbook.png
 
