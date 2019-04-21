@@ -91,6 +91,8 @@ https://github.com/billliao628/textbook-trade/blob/master/Values_Textbook.png
 select  * from TEXTBOOK
 where In_Stock=(select Max(In_Stock) from TEXTBOOK);
 ```
+![image](https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade_ERD.png)
+
 
 2. This report shows how many students from each school use the platform.
 ```MySQL
