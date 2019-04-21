@@ -42,13 +42,14 @@ The following ERD is created by MYSQLWorkbench
 
 ## Implementation
 ---------------------------------------
-The code for creating the database, tables, and queries are in the following link: https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade.sql
+### The code for creating the database, tables, and queries are in the following link: https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade.sql
 
-### Database and Tables
+#### Database and Tables
 ----------------------------------------
-#### Database Textbook-Trade
+##### Database Textbook-Trade
 https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trade.png
-#### Tables description
+
+##### Tables description
 * AccountTable:
 https://github.com/billliao628/textbook-trade/blob/master/Account_Table.png
 * Course Table:
@@ -66,7 +67,7 @@ https://github.com/billliao628/textbook-trade/blob/master/Table_Rental_Post.png
 * Textbook Table:
 https://github.com/billliao628/textbook-trade/blob/master/Textbook_Table.png
 
-#### Tables With Values
+##### Tables With Values
 * Account Values:
 https://github.com/billliao628/textbook-trade/blob/master/Values_Account.png
 * Course Values:
@@ -84,3 +85,35 @@ https://github.com/billliao628/textbook-trade/blob/master/Values_Rental_Post.png
 * Textbook Values:
 https://github.com/billliao628/textbook-trade/blob/master/Values_Textbook.png
 
+#### Some Query Reports
+1. This report shows what books has the most post.
+```MySQL
+select  * from TEXTBOOK
+where In_Stock=(select Max(In_Stock) from TEXTBOOK);
+```
+
+2. This report shows how many students from each school use the platform.
+```MySQL
+select count(account_id), school
+from account
+group by school order by count(account_id) desc;
+```
+
+3. This report shows us what books cost higher (>100 dollars) in either sell_post and rental_post.
+```MySQL
+SELECT sell_post.sell_id, sell_post.sell_price, rental_post.rental_id , rental_post.rental_price , textbook.title , textbook.ISBN
+FROM textbook 
+LEFT JOIN sell_post ON sell_post.ISBN=textbook.ISBN
+LEFT JOIN rental_post ON rental_post.ISBN=textbook.ISBN 
+where sell_post.sell_price>100
+or rental_post.rental_price>100;
+```
+4. This report shows if the same textbook is required by different courses
+```MySQL
+SELECT t.ISBN, title, count(t.title) as book_course_requried
+from textbook t, course_textbook ct
+where t.ISBN=ct.ISBN_1
+or t.ISBN=ct.ISBN_2
+or t.ISBN=ct.ISBN_3
+group by t.ISBN  having count(t.title)>1;
+```
