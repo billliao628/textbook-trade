@@ -53,4 +53,6 @@ https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trad
 https://github.com/billliao628/textbook-trade/blob/master/Account_Table.png
 * Course Table:
 https://github.com/billliao628/textbook-trade/blob/master/Course_Table.png
+* Post Table:
+https://github.com/billliao628/textbook-trade/blob/master/Post_Table.png
 
