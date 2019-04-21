@@ -61,11 +61,27 @@ https://github.com/billliao628/textbook-trade/blob/master/Search_Table.png
 https://github.com/billliao628/textbook-trade/blob/master/Table_Course_Textbook.png
 * Sell_Post Table:
 https://github.com/billliao628/textbook-trade/blob/master/Table_Sell_Post.png
-Rental_Post Table:
+* Rental_Post Table:
 https://github.com/billliao628/textbook-trade/blob/master/Table_Rental_Post.png
-Textbook Table:
+* Textbook Table:
 https://github.com/billliao628/textbook-trade/blob/master/Textbook_Table.png
 
 #### Tables With Values
+* Account Values:
+https://github.com/billliao628/textbook-trade/blob/master/Values_Account.png
+* Course Values:
+https://github.com/billliao628/textbook-trade/blob/master/Values_Course.png
+* Post Values:
+https://github.com/billliao628/textbook-trade/blob/master/Values_Post.png
+* Search Values:
+https://github.com/billliao628/textbook-trade/blob/master/Values_Search.png
+* Course_Textbook Values:
+https://github.com/billliao628/textbook-trade/blob/master/Table_Course_Textbook.png
+* Sell_Post Table Values:
+https://github.com/billliao628/textbook-trade/blob/master/Table_Sell_Post.png
+* Rental_Post Values:
+https://github.com/billliao628/textbook-trade/blob/master/Table_Rental_Post.png
+* Textbook Values:
+https://github.com/billliao628/textbook-trade/blob/master/Textbook_Table.png
 
 
