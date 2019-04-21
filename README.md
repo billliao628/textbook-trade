@@ -46,3 +46,4 @@ The code for creating the database, tables, and queries are in the following lin
 
 ### Database and Tables
 #### Database textbook_trade  
+![image](
