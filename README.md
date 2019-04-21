@@ -29,4 +29,4 @@
 * Each rental post contains a textbook for rental.
 
 ## ER-Diagram
-![image]
+![image](https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade_ERD.png)
