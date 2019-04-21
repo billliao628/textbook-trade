@@ -33,16 +33,16 @@
 * Each post can be a rental post and it can also not be.
 * Each sell post contains a textbook for sell.
 * Each rental post contains a textbook for rental.
-
+2e
 ## ER-Diagram
 ---------------------------------------
 The following ERD is created by MYSQLWorkbench
 ![image](https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade_ERD.png)
+* Note: TINYINT(1) in post table stands for boolean, MYSQLWorkbench prefer tinytnt(1) instead of boolean. However, we will code boolean as datatype
 
 ## Implementation
 ---------------------------------------
 The code for creating the database, tables, and queries are in the following link: https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade.sql
 
-### Create
-
-## 
+### Database and Tables
+#### Database textbook_trade  
