@@ -51,6 +51,6 @@ https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trad
 #### Tables description
 * AccountTable:
 https://github.com/billliao628/textbook-trade/blob/master/Account_Table.png
-* Course Table
-
+* Course Table:
+https://github.com/billliao628/textbook-trade/blob/master/Course_Table.png
 
