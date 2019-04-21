@@ -45,5 +45,9 @@ The following ERD is created by MYSQLWorkbench
 The code for creating the database, tables, and queries are in the following link: https://github.com/billliao628/textbook-trade/blob/master/Textbook_Trade.sql
 
 ### Database and Tables
-#### Database textbook_trade  
-![image](
+#### Database Textbook-Trade  
+![image](https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trade.png)
+#### Account Table
+![image](https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trade.png)
+#### 
+![image](https://github.com/billliao628/textbook-trade/blob/master/database_textbook_trade.png)
