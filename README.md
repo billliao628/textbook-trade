@@ -23,3 +23,7 @@
 * Each textbook may be required by many different courses.
 * Each textbook may have zero to many sell post.
 * Each textbook may have zero to many rental post.
+* Each post can be a sell post and it can also not be.
+* Each post can be a rental post and it can also not be.
+* Each sell post contains a textbook for sell.
+* Each rental post contains a textbook for rental.
