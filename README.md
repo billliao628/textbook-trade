@@ -86,6 +86,7 @@ https://github.com/billliao628/textbook-trade/blob/master/Values_Rental_Post.png
 https://github.com/billliao628/textbook-trade/blob/master/Values_Textbook.png
 
 #### Some Query Reports
+------------------------------------
 1. This report shows what books has the most post.
 ```MySQL
 select  * from TEXTBOOK
@@ -125,4 +126,3 @@ group by t.ISBN  having count(t.title)>1;
 ```
 ![image](https://github.com/billliao628/textbook-trade/blob/master/Fourth_Report.png)
 
-# END
