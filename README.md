@@ -18,21 +18,21 @@
 
 ## Business Rule
 --------------------------------------
-* Each account is able to search zero or many search.
-* Each account is also able to post zero or many post.
-* Each search is searched by one account.
-* Each search may search for one textbook.
-* Each textbook is able to be searched by only one search.
-* Each search may also search for one couse.
-* Each course is able to be searched by only one search.
-* Each course many required many textbook.
-* Each textbook may be required by many different courses.
-* Each textbook may have zero to many sell post.
-* Each textbook may have zero to many rental post.
-* Each post can be a sell post and it can also not be.
-* Each post can be a rental post and it can also not be.
-* Each sell post contains a textbook for sell.
-* Each rental post contains a textbook for rental.
+* An account is able to search zero or many search.
+* An account is also able to post zero or many post.
+* A search is searched by one account.
+* A search may search for one textbook.
+* A textbook is able to be searched by only one search.
+* A search may also search for one couse.
+* A course is able to be searched by only one search.
+* A course many required many textbook.
+* A textbook may be required by many different courses.
+* A textbook may have zero to many sell post.
+* A textbook may have zero to many rental post.
+* A post can be a sell post and it can also not be.
+* A post can be a rental post and it can also not be.
+* A sell post contains a textbook for sell.
+* A rental post contains a textbook for rental.
 2e
 ## ER-Diagram
 ---------------------------------------
