@@ -27,3 +27,6 @@
 * Each post can be a rental post and it can also not be.
 * Each sell post contains a textbook for sell.
 * Each rental post contains a textbook for rental.
+
+## ER-Diagram
+![image]
